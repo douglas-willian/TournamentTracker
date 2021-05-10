@@ -17,5 +17,34 @@ namespace TrackerUI
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void teamOneName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void teamOneScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void teamOneScoreValue_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void versusLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
