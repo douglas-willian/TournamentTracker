@@ -94,7 +94,7 @@ namespace TrackerUI
             this.unplayedOnlyCheckbox.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.unplayedOnlyCheckbox.Location = new System.Drawing.Point(230, 237);
             this.unplayedOnlyCheckbox.Name = "unplayedOnlyCheckbox";
-            this.unplayedOnlyCheckbox.Size = new System.Drawing.Size(249, 49);
+            this.unplayedOnlyCheckbox.Size = new System.Drawing.Size(242, 49);
             this.unplayedOnlyCheckbox.TabIndex = 4;
             this.unplayedOnlyCheckbox.Text = "Unplayed only";
             this.unplayedOnlyCheckbox.UseVisualStyleBackColor = true;
@@ -106,7 +106,7 @@ namespace TrackerUI
             this.matchupListBox.ItemHeight = 45;
             this.matchupListBox.Location = new System.Drawing.Point(65, 315);
             this.matchupListBox.Name = "matchupListBox";
-            this.matchupListBox.Size = new System.Drawing.Size(320, 272);
+            this.matchupListBox.Size = new System.Drawing.Size(720, 407);
             this.matchupListBox.TabIndex = 5;
             // 
             // teamOneName
@@ -137,7 +137,7 @@ namespace TrackerUI
             // 
             this.teamOneScoreValue.Location = new System.Drawing.Point(647, 349);
             this.teamOneScoreValue.Name = "teamOneScoreValue";
-            this.teamOneScoreValue.Size = new System.Drawing.Size(150, 50);
+            this.teamOneScoreValue.Size = new System.Drawing.Size(338, 75);
             this.teamOneScoreValue.TabIndex = 8;
             this.teamOneScoreValue.TextChanged += new System.EventHandler(this.teamOneScoreValue_TextChanged);
             // 
@@ -145,7 +145,7 @@ namespace TrackerUI
             // 
             this.teamTwoScoreValue.Location = new System.Drawing.Point(647, 567);
             this.teamTwoScoreValue.Name = "teamTwoScoreValue";
-            this.teamTwoScoreValue.Size = new System.Drawing.Size(150, 50);
+            this.teamTwoScoreValue.Size = new System.Drawing.Size(338, 75);
             this.teamTwoScoreValue.TabIndex = 11;
             // 
             // teamTwoScore
@@ -202,7 +202,7 @@ namespace TrackerUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1034, 738);
+            this.ClientSize = new System.Drawing.Size(1738, 1061);
             this.Controls.Add(this.scoreButton);
             this.Controls.Add(this.versusLabel);
             this.Controls.Add(this.teamTwoScoreValue);
