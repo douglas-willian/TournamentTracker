@@ -41,7 +41,7 @@ namespace TrackerUI
             this.prizeAmountLabel = new System.Windows.Forms.Label();
             this.prizePercentageValue = new System.Windows.Forms.TextBox();
             this.prizePercentageLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.orLabel = new System.Windows.Forms.Label();
             this.createPrizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -67,6 +67,7 @@ namespace TrackerUI
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Enabled = false;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label3.Location = new System.Drawing.Point(292, 351);
@@ -154,16 +155,16 @@ namespace TrackerUI
             this.prizePercentageLabel.TabIndex = 35;
             this.prizePercentageLabel.Text = "Prize Percentage";
             // 
-            // label1
+            // orLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(228, 293);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 37);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "- or -";
+            this.orLabel.AutoSize = true;
+            this.orLabel.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.orLabel.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.orLabel.Location = new System.Drawing.Point(228, 293);
+            this.orLabel.Name = "orLabel";
+            this.orLabel.Size = new System.Drawing.Size(78, 37);
+            this.orLabel.TabIndex = 37;
+            this.orLabel.Text = "- or -";
             // 
             // createPrizeButton
             // 
@@ -186,9 +187,9 @@ namespace TrackerUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(524, 599);
+            this.ClientSize = new System.Drawing.Size(503, 592);
             this.Controls.Add(this.createPrizeButton);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.orLabel);
             this.Controls.Add(this.prizePercentageValue);
             this.Controls.Add(this.prizePercentageLabel);
             this.Controls.Add(this.prizeAmountValue);
@@ -221,7 +222,7 @@ namespace TrackerUI
         private System.Windows.Forms.Label prizeAmountLabel;
         private System.Windows.Forms.TextBox prizePercentageValue;
         private System.Windows.Forms.Label prizePercentageLabel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label orLabel;
         private System.Windows.Forms.Button createPrizeButton;
     }
 }

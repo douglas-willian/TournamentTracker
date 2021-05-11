@@ -32,8 +32,8 @@ namespace TrackerUI
             this.headerLabel = new System.Windows.Forms.Label();
             this.teamOneScoreValue = new System.Windows.Forms.TextBox();
             this.tournamentNameValue = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.entryFeeValue = new System.Windows.Forms.Label();
+            this.entryFeeValue = new System.Windows.Forms.TextBox();
+            this.entryFeeLabel = new System.Windows.Forms.Label();
             this.selectTeamDropDown = new System.Windows.Forms.ComboBox();
             this.selectTeamLabel = new System.Windows.Forms.Label();
             this.createNewTeamLink = new System.Windows.Forms.LinkLabel();
@@ -80,26 +80,26 @@ namespace TrackerUI
             this.tournamentNameValue.TabIndex = 9;
             this.tournamentNameValue.Text = "Tournament Name";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(164, 183);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(68, 36);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "0";
-            // 
             // entryFeeValue
             // 
-            this.entryFeeValue.AutoSize = true;
-            this.entryFeeValue.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.entryFeeValue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.entryFeeValue.Location = new System.Drawing.Point(36, 180);
-            this.entryFeeValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.entryFeeValue.Location = new System.Drawing.Point(164, 183);
+            this.entryFeeValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.entryFeeValue.Name = "entryFeeValue";
-            this.entryFeeValue.Size = new System.Drawing.Size(125, 37);
-            this.entryFeeValue.TabIndex = 11;
-            this.entryFeeValue.Text = "Entry Fee";
+            this.entryFeeValue.Size = new System.Drawing.Size(68, 36);
+            this.entryFeeValue.TabIndex = 12;
+            this.entryFeeValue.Text = "0";
+            // 
+            // entryFeeLabel
+            // 
+            this.entryFeeLabel.AutoSize = true;
+            this.entryFeeLabel.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.entryFeeLabel.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.entryFeeLabel.Location = new System.Drawing.Point(36, 180);
+            this.entryFeeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.entryFeeLabel.Name = "entryFeeLabel";
+            this.entryFeeLabel.Size = new System.Drawing.Size(125, 37);
+            this.entryFeeLabel.TabIndex = 11;
+            this.entryFeeLabel.Text = "Entry Fee";
             // 
             // selectTeamDropDown
             // 
@@ -277,8 +277,8 @@ namespace TrackerUI
             this.Controls.Add(this.createNewTeamLink);
             this.Controls.Add(this.selectTeamDropDown);
             this.Controls.Add(this.selectTeamLabel);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.entryFeeValue);
+            this.Controls.Add(this.entryFeeLabel);
             this.Controls.Add(this.teamOneScoreValue);
             this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.headerLabel);
@@ -297,8 +297,8 @@ namespace TrackerUI
         private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.TextBox teamOneScoreValue;
         private System.Windows.Forms.Label tournamentNameValue;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label entryFeeValue;
+        private System.Windows.Forms.TextBox entryFeeValue;
+        private System.Windows.Forms.Label entryFeeLabel;
         private System.Windows.Forms.ComboBox selectTeamDropDown;
         private System.Windows.Forms.Label selectTeamLabel;
         private System.Windows.Forms.LinkLabel createNewTeamLink;
